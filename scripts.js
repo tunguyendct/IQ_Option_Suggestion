@@ -5,6 +5,7 @@ var input3 = document.getElementById('t3');
 var input4 = document.getElementById('t4');
 var inputX1 = document.getElementById('x1');
 var inputX2 = document.getElementById('x2');
+var outputF4 = document.getElementById('f4');
 var x1, x2;
 
 // output
@@ -48,8 +49,7 @@ var result = function() {
 
     t6 = f5 + x2
 
-    console.log(T1, T2, F1, F2)
-
+    outputF4.innerHTML = f4;
     inputX1.innerHTML = x1;
     inputX2.innerHTML = x2;
     input5.innerHTML = t5;
